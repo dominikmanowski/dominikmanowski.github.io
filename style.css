@@ -1,0 +1,13 @@
+body {
+    font-family: 'Noto+Sans', sans-serif;
+}
+
+header h1 {
+    font-size: 2em;
+    font-weight:700;
+}
+
+header .photo{
+    border: 1px solid #000;
+    border-radius: 50%;
+}
