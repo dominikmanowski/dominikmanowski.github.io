@@ -1,13 +1,43 @@
+/*
+
+Colors to use:
+
+#545864 - background color
+#F5F2EB - font color
+#DBD8D1
+#F9B006
+#627E83
+#24222D
+#FF6329
+
+
+*/
+
 body {
-    font-family: 'Noto+Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2em;
+    color: #F5F2EB;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 15px;
+    background: #545864;
 }
 
 header h1 {
     font-size: 2em;
     font-weight:700;
+    color: #DBD8D1;
+    margin-bottom: 15px;
 }
 
 header .photo{
-    border: 1px solid #000;
+    border: 1px solid #F5F2EB;
     border-radius: 50%;
+}
+
+.center {
+    text-align: center;
 }
