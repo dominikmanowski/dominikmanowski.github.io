@@ -1,43 +1,146 @@
-/*
-
-Colors to use:
-
-#545864 - background color
-#F5F2EB - font color
-#DBD8D1
-#F9B006
-#627E83
-#24222D
-#FF6329
-
-
-*/
+html {
+    height: 100%;
+    background: #454545;
+}
 
 body {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Abel', sans-serif;
     font-size: 1.2em;
-    color: #F5F2EB;
-}
-
-.container {
+    background: #a0aca9;
+    color: #f5f5f4;
     width: 80%;
-    margin: 0 auto;
-    padding: 15px;
-    background: #545864;
+    min-height: 100%;
+    margin: 15vh auto 0;
 }
 
-header h1 {
-    font-size: 2em;
-    font-weight:700;
-    color: #DBD8D1;
-    margin-bottom: 15px;
+.hero .container {
+    height: 70vh;
+    margin-bottom: 15vh;
+    background: url(img/hero-bg.jpg) no-repeat center;
+    background-size: cover;
+    display: flex;
+    position: relative; /* because of photo */
 }
 
-header .photo{
-    border: 1px solid #F5F2EB;
+.hero-clear {
+    width: 50%;
+    height: 100%;
+}
+
+.hero .photo {
+    border: 2px solid #E1E6E4;
     border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    filter: grayscale(30%);
 }
 
-.center {
+.hero .name {
+    width: 50%;
+    padding: 35px 15px 0 15px;
+    background: rgba(69, 69, 69, 0.5);
     text-align: center;
+}
+
+.projects {
+    height: 100vh;
+    background: url(img/projects-bg.jpg) fixed no-repeat; /*https://unsplash.com/photos/xnUQO2DwXOo*/
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.projects .container {
+    width: 100%;
+    padding: 15px 0;
+    background: rgba(69, 69, 69, 0.8);
+    text-align: center;
+}
+
+.projects h3 {
+    margin-top: 10px;
+}
+
+.projects .wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.projects .card {
+    width: 40%;
+    background: #f5f5f4;
+    color: #454545;
+    padding: 5px;
+    margin-bottom: 20px; /* same as container + h3 padding */
+    font-size: 1rem;
+    letter-spacing: 1px;
+}
+
+.projects .card p{
+    font-size: 0.9em;
+}
+
+.projects .card img {
+    width: 100%;
+}
+
+.experience {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.experience .container {
+    width: 100%;
+    padding: 15px;
+    background: rgba(69, 69, 69, 0.5);
+    text-align: center;
+
+}
+
+.experience table {
+    margin: 15px auto;
+    border-collapse: collapse;
+}
+
+.experience tbody th{
+    height: 2.7em; /* same as icons height */
+}
+
+.experience td, .experience th {
+    padding: 0.4rem;
+}
+
+.experience tbody td {
+    font-size: 2.3em;
+}
+
+.experience tbody th, .experience tbody td {
+    border-bottom: 1px solid;
+}
+
+.experience th {
+    text-align: left;
+}
+
+footer {
+    height: 10vh;
+}
+
+footer .container {
+    background: #121713;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+    margin-top: 0;
 }
