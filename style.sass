@@ -1,0 +1,234 @@
+*
+  margin: 0
+  padding: 0
+  box-sizing: border-box
+
+body
+
+  font-family: 'Abel', sans-serif
+  color: #f5f5f4
+
+section
+  max-width: 1200px
+  margin: 0 auto
+  background: #717776
+
+.container
+  height: 100%
+  width: 100%
+  max-width: 1200px
+  margin: 0 auto
+
+h1
+  font-size: 1.8rem
+  margin-bottom: 5px
+
+h3
+  font-size: 1.2rem
+  margin-bottom: 5px
+
+.hero
+  height: 100vh
+  width: 100%
+  background: url(img/hero-bg.jpg) no-repeat center
+  background-size: cover
+
+  .name
+    background: rgba(69, 69, 69, 0.5)
+    height: 100%
+    width: 100%
+    text-align: center
+    position: relative
+    padding: 2rem 15px 0 15px
+
+  .photo
+    border: 2px solid #E1E6E4
+    width: 50%
+    max-width: 250px
+    position: absolute
+    left: 50%
+    top: 50%
+    transform: translate(-50%, -50%)
+    border-radius: 50%
+    filter: grayscale(30%)
+
+.projects
+  background: url(img/projects-bg.jpg) fixed no-repeat /*https://unsplash.com/photos/xnUQO2DwXOo*/
+  background-size: cover
+
+  .container
+    height: 100%
+    width: 100%
+    background: rgba(69, 69, 69, 0.8)
+    text-align: center
+    padding-top: 1rem
+
+  .wrapper
+    display: flex
+    flex-direction: column
+    align-items: center
+
+  .card
+    width: 80%
+    max-width: 510px
+    background: #f5f5f4
+    color: #454545
+    padding: 5px
+    margin: 0 15px 20px /* same as container + h3 padding */
+    font-size: 1rem
+    letter-spacing: 1px
+
+    img
+      width: 100%
+
+.experience
+  display: flex
+  flex-direction: column
+  justify-content: center
+  align-items: center
+
+  .container
+    padding-top: 1rem
+    width: 100%
+    //background: rgba(69, 69, 69, 0.5)
+    text-align: center
+
+  table
+    margin: 15px auto
+    border-collapse: collapse
+
+  tbody th
+    height: 1.5em
+    /* same as icons height */
+
+  td, th
+    padding: 2px
+    font-weight: 500
+
+  tbody td th
+    font-size: 0.8em
+
+  tbody th, tbody td
+    border-bottom: 1px solid
+
+  th
+    text-align: left
+
+footer
+  height: 10vh
+
+  .container
+    background: #121713
+    height: 100%
+    text-align: center
+    display: flex
+    justify-content: center
+    align-items: center
+
+  p
+    margin-top: 0
+
+@media (min-width: 576px) and (max-width: 768px)
+
+  h1
+    font-size: 2rem
+
+  h3
+    font-size: 1.3rem
+
+  .experience
+
+    td
+      font-size: 2rem
+
+    td, th
+      padding: 0.4rem
+
+@media (min-width: 769px) and (max-width: 992px)
+
+  h1
+    font-size: 2.1rem
+
+  h3
+    font-size: 1.5rem
+
+  .experience
+
+    th
+      height: 2.7em
+      font-size: 1.1rem
+
+    td
+      font-size: 2.2rem
+
+    td, th
+      padding: 0.4rem
+
+@media (min-width: 993px) and (max-width: 1200px)
+
+  h1
+    font-size: 2.2rem
+
+  h3
+    font-size: 1.3rem
+
+  .hero
+    .container
+      display: flex
+      justify-content: flex-end
+
+      .name
+        width: 50%
+
+
+  .projects
+    .wrapper
+      flex-direction: row
+      flex-wrap: nowrap
+      justify-content: space-around
+
+  .experience
+
+    th
+      height: 2.7em
+      font-size: 1.2rem
+
+    td
+      font-size: 2.6rem
+
+    td, th
+      padding: 0.4rem
+
+@media (min-width: 1200px)
+
+  h1
+    font-size: 2.3rem
+
+  h3
+    font-size: 1.4rem
+
+  .hero
+    .container
+      display: flex
+      justify-content: flex-end
+
+      .name
+        width: 50%
+
+  .projects
+    .wrapper
+      flex-direction: row
+      flex-wrap: nowrap
+      justify-content: space-around
+
+  .experience
+
+    th
+      height: 2.7em
+      font-size: 1.3rem
+
+    td
+      font-size: 3rem
+
+    td, th
+      padding: 0.4rem
