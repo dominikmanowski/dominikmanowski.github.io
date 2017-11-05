@@ -9,12 +9,15 @@ body {
 
 section {
   margin: 0 auto;
-  background: #717776; }
+  background: #717776;
+  min-width: 320px;
+  min-height: 280px; }
 
 .container {
   height: 100%;
   width: 100%;
-  margin: 0 auto; }
+  margin: 0 auto;
+  padding: 2rem 0; }
 
 h1 {
   font-size: 1.8rem;
@@ -29,6 +32,8 @@ h3 {
   width: 100%;
   background: url(img/hero-bg.jpg) no-repeat center;
   background-size: cover; }
+  .hero .container {
+    padding: 0; }
   .hero .name {
     background: rgba(69, 69, 69, 0.5);
     height: 100%;
@@ -54,8 +59,7 @@ h3 {
     height: 100%;
     width: 100%;
     background: rgba(69, 69, 69, 0.8);
-    text-align: center;
-    padding-top: 1rem; }
+    text-align: center; }
   .projects .wrapper {
     display: flex;
     flex-direction: column;
@@ -79,11 +83,11 @@ h3 {
   justify-content: center;
   align-items: center; }
   .experience .container {
-    padding-top: 1rem;
+    padding: 2rem 0;
     width: 100%;
     text-align: center; }
   .experience table {
-    margin: 15px auto;
+    margin: 15px auto 0;
     border-collapse: collapse; }
   .experience tbody th {
     height: 1.5em;
@@ -112,7 +116,7 @@ footer {
   footer p {
     margin-top: 0; }
 
-@media (max-width: 992px) and (max-height: 480px) {
+@media (max-height: 480px) {
   .hero .container {
     display: flex;
     justify-content: flex-end; }
