@@ -4,181 +4,220 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="stylesheet" type="text/css" href="style.css">
-
     <!-- fonts -->
     <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
-
     <!-- icons -->
-    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+    <link rel="stylesheet"
+          href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+    <!--bootstarp 4-->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <!--stylesheet-->
+    <link rel="stylesheet" type="text/css" href="style.css">
 
     <title>Dominik Manowski - portfilio</title>
 
 </head>
 
-<body>
-
-<header>
-
-    <section class="hero">
-
-        <div class="container">
-
-            <div class="name">
-                <h1>Dominik Manowski - portfolio</h1>
-                <h3>Junior Frontend Developer</h3>
-
-            </div>
-
-
-            <img src="img/dominikmanowski.jpg" alt="Dominik Manowski" class="photo">
-
-
-        </div>
-
-    </section>
-
-</header>
-
-<main>
-
-    <section class="projects">
-
-        <div class="container">
-
-            <div>
-                <h3>Projects:</h3>
-            </div>
-
-            <div class="wrapper">
-
-
-                <div class="card">
-                    <a href="https://github.com/dominikmanowski/dominikmanowski.github.io" title="Dominik Manowski - portfolio" target="_blank">
-                        <img src="img/github-repo.jpg" alt="">
-                    </a>
-                    <p>
-                        <strong><em>Portfolio</em></strong>:
-                        <i class="devicon-html5-plain"></i> +
-                        <i class="devicon-css3-plain"></i>
-                    </p>
-
-                </div>
-
-                <div class="card">
-                    <a href="https://github.com/infoshareacademy/jfdz7-NC_IT" target="_blank">
-                        <img src="img/pomocnik-zakupowy.jpg" alt="">
-                    </a>
-                    <p>
-                        <strong><em>Pomocnik zakupowy</em></strong> landing page:
-                        <i class="devicon-html5-plain"></i> +
-                        <i class="devicon-css3-plain"></i> +
-                        <i class="devicon-bootstrap-plain"></i>
-                    </p>
-
-                </div>
-            </div>
-
-        </div>
-
-    </section>
-
-    <section class="experience">
-
-        <div class="container">
-
-            <h3>Experience:</h3>
-            <table>
-                <thead>
-                <tr>
-                    <th></th>
-                    <th>Beginner</th>
-                    <th>Familiar</th>
-                    <th>Proficient</th>
-                    <th>Expert</th>
-                </tr>
-                </thead>
-                <tbody>
-                <tr>
-                    <th>HTML 5</th>
-                    <td><i class="devicon-html5-plain"></i></td>
-                    <td><i class="devicon-html5-plain"></i></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <th>CSS 3</th>
-                    <td><i class="devicon-css3-plain"></i></td>
-                    <td><i class="devicon-css3-plain"></i></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <th>Bootstrap</th>
-                    <td><i class="devicon-bootstrap-plain"></i></td>
-                    <td><i class="devicon-html5-plain"></i></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <th>Sass</th>
-                    <td><i class="devicon-sass-original"></i></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <th>JavaScript</th>
-                    <td><i class="devicon-javascript-plain"></i></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <th>jQuery</th>
-                    <td><i class="devicon-jquery-plain"></i></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <th>React</th>
-                    <td><i class="devicon-react-original"></i></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <th>Git</th>
-                    <td><i class="devicon-git-plain"></i></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <th>Linux</th>
-                    <td><i class="devicon-linux-plain"></i></td>
-                    <td><i class="devicon-linux-plain"></i></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                </tbody>
-            </table>
-
-        </div>
-
-    </section>
-
-</main>
-
-<footer>
-
+<!--
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container">
-
-        <p>&copy; Dominik Manowski</p>
-
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Features</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Pricing</a>
+                </li>
+            </ul>
+        </div>
     </div>
+</nav>
+-->
+<hr>
+<header>
+    <section class="hero">
+        <div class="container text-center py-5">
 
+            <h1 class="display-4">Dominik Manowski - portfolio</h1>
+            <h3 class="lead">Junior Frontend Developer</h3>
+            <figure class="pt-4">
+                <img src="img/dominikmanowski.jpg" alt="Dominik Manowski" class="img-fluid rounded-circle">
+            </figure>
+            <!--<div class="row flex-row-reverse">-->
+            <p class="font-italic mt-2 mb-0 text-right h4 text-muted">Less is
+                <del>more</del>
+                better.
+            </p>
+            <!--</div>-->
+        </div>
+
+    </section>
+</header>
+<hr>
+<main>
+    <section class="about">
+        <div class="container py-5">
+            <div class="text-center">
+                <h3>About me:</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At aut eaque eligendi, harum illum iure
+                    laudantium recusandae, reiciendis repellat sapiente velit, veniam! Alias consectetur corporis cum
+                    debitis ducimus ea eum ex minus molestiae nemo pariatur placeat, provident, recusandae reiciendis
+                    sint totam ullam? Accusantium cumque distinctio itaque maiores nam nostrum porro sit. A aliquam,
+                    cupiditate eligendi esse, iste itaque iusto magni perferendis quam quis reprehenderit soluta, sunt?
+                    Assumenda consequuntur delectus dolores enim esse est explicabo ipsam minus modi natus officia
+                    officiis perspiciatis, porro praesentium quam quas quisquam rem temporibus totam vel. Assumenda illo
+                    quod recusandae reiciendis reprehenderit! Aspernatur consectetur totam vero.</p>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <section class="projects">
+        <div class="container py-5">
+            <div class="row text-center align-content-center">
+                <span class="col-12"><h3>Projects:</h3></span>
+                <div class="col-md mb-4 mb-md-0">
+                    <div class="card">
+                        <img src="img/github-repo.jpg" alt="Port" class="card-img-top img-fluid">
+                        <div class="card-body">
+
+                            <h3 class="card-title">Portfolio</h3>
+
+                            <p class="card-text">
+                                <strong><em>Portfolio</em></strong>:
+                                <i class="devicon-html5-plain"></i> +
+                                <i class="devicon-css3-plain"></i> +
+                                <i class="devicon-bootstrap-plain"></i>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="card">
+                        <img src="img/pomocnik-zakupowy.jpg" alt="Pomocnik zakupowy" class="card-img-top img-fluid">
+                        <div class="card-body">
+
+                            <h3 class="card-title">Pomocnik zakupowy</h3>
+
+                            <p class="card-text">
+                                <strong><em>Pomocnik zakupowy</em></strong> landing page:
+                                <i class="devicon-html5-plain"></i> +
+                                <i class="devicon-css3-plain"></i> +
+                                <i class="devicon-bootstrap-plain"></i>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <section class="experience">
+        <div class="container py-5">
+            <div class="row justify-content-center text-center">
+                <h3 class="col-12">Experience:</h3>
+                <table>
+                    <thead>
+                    <tr>
+                        <th></th>
+                        <th>Beginner</th>
+                        <th>Familiar</th>
+                        <th>Proficient</th>
+                        <th>Expert</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <th>HTML 5</th>
+                        <td><i class="devicon-html5-plain"></i></td>
+                        <td><i class="devicon-html5-plain"></i></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th>CSS 3</th>
+                        <td><i class="devicon-css3-plain"></i></td>
+                        <td><i class="devicon-css3-plain"></i></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th>Bootstrap</th>
+                        <td><i class="devicon-bootstrap-plain"></i></td>
+                        <td><i class="devicon-html5-plain"></i></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th>Sass</th>
+                        <td><i class="devicon-sass-original"></i></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th>JavaScript</th>
+                        <td><i class="devicon-javascript-plain"></i></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th>jQuery</th>
+                        <td><i class="devicon-jquery-plain"></i></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th>React</th>
+                        <td><i class="devicon-react-original"></i></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th>Webstorm</th>
+                        <td><i class="devicon-webstorm-plain"></i></td>
+                        <td><i class="devicon-webstorm-plain"></i></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th>Git</th>
+                        <td><i class="devicon-git-plain"></i></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th>Linux</th>
+                        <td><i class="devicon-linux-plain"></i></td>
+                        <td><i class="devicon-linux-plain"></i></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+</main>
+<hr>
+<footer>
+    <div class="container">
+        <div class="row justify-content-center align-items-center">
+            <p class="m-4">&copy; Dominik Manowski</p>
+        </div>
+    </div>
 </footer>
 
 </body>
