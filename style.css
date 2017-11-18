@@ -14,26 +14,10 @@ hr {
   .hero:hover {
     background: #F0F0F0; }
   .hero img {
-    position: relative;
-    padding: 7px; }
-    .hero img::after {
-      content: " ";
-      display: block;
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 250px;
-      height: 250px;
-      border-radius: 50%;
-      padding: 5px;
-      border: 2px dashed #000; }
-      .hero img::after:hover {
-        animation: spin 2s linear infinite; }
-@keyframes spin {
-  0% {
-    transform: rotate(0deg); }
-  100% {
-    transform: rotate(360deg); } }
+    padding: 5px;
+    border: 2px dashed #000;
+    border-radius: 50%; }
+
 .about {
   transition: background 2s ease-out; }
   .about:hover {
