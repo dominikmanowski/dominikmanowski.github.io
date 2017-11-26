@@ -10,40 +10,75 @@ hr {
   margin: 0; }
 
 .hero {
-  transition: background 2s ease-out; }
-  .hero:hover {
-    background: #F0F0F0; }
+  background: #F0F0F0; }
   .hero img {
     padding: 5px;
     border: 2px dashed #000;
     border-radius: 50%; }
 
 .about {
-  transition: background 2s ease-out; }
-  .about:hover {
-    background: #C3CED4; }
+  background: #D4AF37; }
 
 .projects {
-  transition: background 2s ease-out; }
-  .projects:hover {
-    background: #D4AF37; }
-  .projects .card img {
-    opacity: 0.4;
-    transition: opacity 2s ease-out; }
-  .projects .card:hover img {
-    opacity: 1; }
+  background: #C3CED4; }
+  .projects a {
+    text-decoration: none;
+    color: #000; }
 
 .experience {
-  transition: background 2s ease-out; }
+  background: #e2e88f; }
   .experience table tr {
     border-top: 1px solid black; }
-  .experience:hover {
-    background: #e2e88f; }
 
 footer {
-  transition: color 1s linear, background 2s ease-out; }
-  footer:hover {
-    background: #B6A78E;
-    color: #F0F0F0; }
+  background: #B6A78E;
+  color: #F0F0F0; }
+
+@media (min-width: 768px) {
+  .hero {
+    background: #fff;
+    transition: background 2s ease-out; }
+    .hero:hover {
+      background: #F0F0F0; }
+    .hero img {
+      padding: 5px;
+      border: 2px dashed #000;
+      border-radius: 50%; }
+
+  .about {
+    background: #fff;
+    transition: background 2s ease-out; }
+    .about:hover {
+      background: #D4AF37; }
+
+  .projects {
+    background: #fff;
+    transition: background 2s ease-out; }
+    .projects a {
+      text-decoration: none;
+      color: #000; }
+    .projects:hover {
+      background: #C3CED4; }
+    .projects .card img {
+      opacity: 0.4;
+      transition: opacity 2s ease-out; }
+    .projects .card:hover img {
+      opacity: 1; }
+
+  .experience {
+    background: #fff;
+    transition: background 2s ease-out; }
+    .experience table tr {
+      border-top: 1px solid black; }
+    .experience:hover {
+      background: #e2e88f; }
+
+  footer {
+    background: #fff;
+    transition: color 1s linear, background 2s ease-out;
+    color: #000; }
+    footer:hover {
+      background: #B6A78E;
+      color: #F0F0F0; } }
 
 /*# sourceMappingURL=style.css.map */
