@@ -1,278 +1,87 @@
-*
-  margin: 0
-  padding: 0
-  box-sizing: border-box
-
 body
-
   font-family: 'Abel', sans-serif
-  color: #f5f5f4
 
 section
-  margin: 0 auto
-  background: #717776
+  min-width: 304px
+  margin: 0
 
-.container
-  height: 100%
-  width: 100%
-  margin: 0 auto
-  padding: 2rem 0
-  text-align: center
-
-h1
-  font-size: 1.8rem
-  margin-bottom: 5px
-
-h3
-  font-size: 1.2rem
-  margin-bottom: 5px
+hr
+  border-top: 2px dashed #000
+  margin: 0
 
 .hero
-  height: 100vh
-  width: 100%
-  background: url(img/hero-bg.jpg) no-repeat center
-  background-size: cover
-  min-width: 320px
-  min-height: 280px
-
-  .container
-    padding: 0
-
-  .name
-    background: rgba(69, 69, 69, 0.5)
-    height: 100%
-    width: 100%
-    text-align: center
-    position: relative
-    padding: 2rem 15px 0 15px
-
-  .photo
-    border: 2px solid #E1E6E4
-    width: 50%
-    max-width: 250px
-    position: absolute
-    left: 50%
-    top: 50%
-    transform: translate(-50%, -50%)
+  background: #F0F0F0
+  img
+    padding: 5px
+    border: 2px dashed #000
     border-radius: 50%
-    filter: grayscale(30%)
 
 .about
-
-  .container
-    padding-left: 15px
-    padding-right: 15px
-    p
-      font-size: 1.5rem
-
+  background: #D4AF37
 
 .projects
-  background: url(img/projects-bg.jpg) fixed no-repeat /*https://unsplash.com/photos/xnUQO2DwXOo*/
-  background-size: cover
-
-  .container
-    height: 100%
-    width: 100%
-    background: rgba(69, 69, 69, 0.8)
-    text-align: center
-
-  .wrapper
-    display: flex
-    flex-direction: column
-    align-items: center
-    max-width: 1200px
-    margin: 0 auto
-    padding: 3rem 0
-
-  .card
-    width: 80%
-    max-width: 510px
-    background: #f5f5f4
-    color: #454545
-    padding: 5px
-    margin: 0 15px 20px /* same as container + h3 padding */
-    font-size: 1rem
-    letter-spacing: 1px
-
-    img
-      width: 100%
+  background: #C3CED4
+  a
+    text-decoration: none
+    color: #000
 
 .experience
-  //display: flex
-  //flex-direction: row
-  justify-content: center
-  align-items: center
-
-  .container
-    padding: 2rem 0
-    width: 100%
-
-    text-align: center
-
+  background: #e2e88f
   table
-    margin: 15px auto 0
-    border-collapse: collapse
-
-  tbody th
-    height: 1.5em
-    /* same as icons height */
-
-  td, th
-    padding: 2px
-    font-weight: 500
-
-  tbody td th
-    font-size: 0.8em
-
-  tbody th, tbody td
-    border-bottom: 1px solid
-
-  th
-    text-align: left
+    tr
+      border-top: 1px solid black
 
 footer
-  height: 4rem
-  width: 100%
+  background: #B6A78E
+  color: #F0F0F0
 
-  .container
-    background: #121713
-    height: 100%
-    width: 100%
-    text-align: center
-    display: flex
-    justify-content: center
-    align-items: center
+@media (min-width: 768px)
+  .hero
+    background: #fff
+    transition: background 2s ease-out
+    &:hover
+      background: #F0F0F0
+    img
+      padding: 5px
+      border: 2px dashed #000
+      border-radius: 50%
 
-  p
-    margin-top: 0
-    font-size: 1.2rem
+  .about
+    background: #fff
+    transition: background 2s ease-out
+    &:hover
+      background: #D4AF37
 
+  .projects
+    background: #fff
+    transition: background 2s ease-out
     a
       text-decoration: none
-      color: #f5f5f4
-      margin-left: 1rem
-
-@media (max-height: 480px)
-
-  .hero
-    .container
-      display: flex
-      justify-content: flex-end
-
-      .photo
-        width: 35%
-        left: 25%
-        top: 50%
-
-      .name
-        width: 50%
-        text-align: left
-
-
-
-@media (min-width: 576px) and (max-width: 768px)
-
-  h1
-    font-size: 2rem
-
-  h3
-    font-size: 1.3rem
+      color: #000
+    &:hover
+      background: #C3CED4
+    .card
+      img
+        opacity: 0.4
+        transition: opacity 2s ease-out
+      &:hover
+        img
+          opacity: 1
 
   .experience
-
-    td
-      font-size: 2rem
-
-    td, th
-      padding: 0.4rem
-
-@media (min-width: 769px) and (max-width: 992px)
-
-  h1
-    font-size: 2.1rem
-
-  h3
-    font-size: 1.5rem
-
-  .experience
-
-    th
-      height: 2.7em
-      font-size: 1.1rem
-
-    td
-      font-size: 2.2rem
-
-    td, th
-      padding: 0.4rem
-
-@media (min-width: 993px) and (max-width: 1200px)
-
-  h1
-    font-size: 2.2rem
-
-  h3
-    font-size: 1.3rem
-
-  .hero
-    .container
-      display: flex
-      justify-content: flex-end
-
-      .name
-        width: 50%
-        text-align: left
+    background: #fff
+    transition: background 2s ease-out
+    table
+      tr
+        border-top: 1px solid black
+    &:hover
+      background: #e2e88f
 
 
-  .projects
-    .wrapper
-      flex-direction: row
-      flex-wrap: nowrap
-      justify-content: space-around
-
-  .experience
-
-    th
-      height: 2.7em
-      font-size: 1.2rem
-
-    td
-      font-size: 2.6rem
-
-    td, th
-      padding: 0.4rem
-
-@media (min-width: 1200px)
-
-  h1
-    font-size: 2.3rem
-
-  h3
-    font-size: 1.4rem
-
-  .hero
-    .container
-      display: flex
-      justify-content: flex-end
-
-      .name
-        width: 50%
-        text-align: left
-
-  .projects
-    .wrapper
-      flex-direction: row
-      flex-wrap: nowrap
-      justify-content: space-around
-
-  .experience
-
-    th
-      height: 2.7em
-      font-size: 1.3rem
-
-    td
-      font-size: 3rem
-
-    td, th
-      padding: 0.4rem
+  footer
+    background: #fff
+    transition: color 1s linear, background 2s ease-out
+    color: #000
+    &:hover
+      background: #B6A78E
+      color: #F0F0F0
