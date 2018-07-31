@@ -1,5 +1,5 @@
 body {
-  font-family: "Abel", sans-serif; }
+  font-family: 'Abel', sans-serif; }
 
 section {
   min-width: 304px;
@@ -15,6 +15,12 @@ hr {
     padding: 5px;
     border: 2px dashed #000;
     border-radius: 50%; }
+  .hero h1 span {
+    display: block; }
+    .hero h1 span:last-child {
+      font-size: .75em;
+      letter-spacing: 1rem;
+      margin-left: 1rem; }
 
 .about {
   background: #D4AF37; }
@@ -44,13 +50,11 @@ footer {
       padding: 5px;
       border: 2px dashed #000;
       border-radius: 50%; }
-
   .about {
     background: #fff;
     transition: background 2s ease-out; }
     .about:hover {
       background: #D4AF37; }
-
   .projects {
     background: #fff;
     transition: background 2s ease-out; }
@@ -64,7 +68,6 @@ footer {
       transition: opacity 2s ease-out; }
     .projects .card:hover img {
       opacity: 1; }
-
   .experience {
     background: #fff;
     transition: background 2s ease-out; }
@@ -72,7 +75,6 @@ footer {
       border-top: 1px solid black; }
     .experience:hover {
       background: #e2e88f; }
-
   footer {
     background: #fff;
     transition: color 1s linear, background 2s ease-out;
@@ -80,5 +82,3 @@ footer {
     footer:hover {
       background: #B6A78E;
       color: #F0F0F0; } }
-
-/*# sourceMappingURL=style.css.map */

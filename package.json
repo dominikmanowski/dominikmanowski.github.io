@@ -4,6 +4,7 @@
   "description": "A portfilio site",
   "main": "index.js",
   "scripts": {
+    "watch:sass": "node-sass ./style.sass ./style.css -w",
     "build": "webpack js/bootstrap.js dist/bundle.js",
     "prod": "webpack js/bootstrap.js dist/bundle.js -p",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -23,6 +24,7 @@
   "homepage": "https://github.com/dominikmanowski/dominikmanowski.github.io#readme",
   "devDependencies": {
     "babel": "^6.23.0",
+    "node-sass": "^4.9.2",
     "source-map-loader": "^0.2.3",
     "webpack": "^3.10.0"
   }
