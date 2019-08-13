@@ -1,0 +1,66 @@
+[
+  {
+    "title": "Hangman game",
+    "slug": "hangman-game",
+    "url": "https://dominikmanowski.github.io/hangman/",
+    "image": "./images/hangman.png",
+    "description": "This is a simple word game. The objective is to guess the word, within a certain number of guesses. Player can enter any number of letters at once. Each time the wrong letter is given, one fragment of the hangman diagram is drawn. I made it in JavaScript and Sass. I also used Pug for writing markup and Npm Scripts to automate develoment tasks.",
+    "tags": ["Pug", "Sass", "JavaScript"]
+  },
+  {
+    "title": "Porftolio",
+    "slug": "portfolio",
+    "url": "https://dominikmanowski.github.io/",
+    "image": "./images/github-repo.png",
+    "description": "I built this site to show off my sweet skills!",
+    "tags": ["React", "Gatsby", "JavaScript"]
+  },
+  {
+    "title": "Andrzej Kędzierski website",
+    "slug": "kedzierski",
+    "url": "https://dominikmanowski.github.io/",
+    "image": "./images/kedzierski.png",
+    "description": "Website created for a musician and music producer from Tricity. It is build with responsiveness in mind. In this project I used SCSS with BEM for writing CSS and Gulp to automate workflow.",
+    "tags": ["HTML", "Sass", "BEM"]
+  },
+  {
+    "title": "Yoga Palace website",
+    "slug": "yoga-palace",
+    "url": "https://dominikmanowski.github.io/yoga-palace/",
+    "image": "./images/yoga-palace.png",
+    "description": "Responsive website build with Pug, Sass + BEM, and Js. I used Npm Scripts to run developmnet tasks.",
+    "tags": ["HTML", "Sass", "JavaScript"]
+  },
+  {
+    "title": "Oxford timer",
+    "slug": "oxford-timer",
+    "url": "https://cdn.rawgit.com/dominikmanowski/oxford-timer/develop/index.html",
+    "image": "./images/oxford-timer.png",
+    "description": "This is my first project, build with HTML, CSS and Javascript. It is a timer counting down the time until the end of speech in the Oxford debate.",
+    "tags": ["JavaScript"]
+  },
+  {
+    "title": "Family Feud game",
+    "slug": "family-feud",
+    "url": "https://github.com/dominikmanowski/family-feud",
+    "image": "./images/family-feud.png",
+    "description": "This one is also good.",
+    "tags": ["HTML", "JavaScript"]
+  },
+  {
+    "title": "Pomocnik zakupowy",
+    "slug": "pomocnik-zakupowy",
+    "url": "http://ncit.jfdz7.is-academy.pl/",
+    "image": "./images/pomocnik-zakupowy.png",
+    "description": "This one is also good.",
+    "tags": ["HTML", "CSS", "Bootstrap"]
+  },
+  {
+    "title": "Pomocnik zakupowy app",
+    "slug": "pomocnik-zakupowy-app",
+    "url": "http://app.ncit.jfdz7.is-academy.pl/",
+    "image": "./images/pomocnik-zakupowy-app.png",
+    "description": "This one is also good.",
+    "tags": ["React"]
+  }
+]
